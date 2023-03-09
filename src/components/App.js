@@ -11,7 +11,6 @@ function App() {
   const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
 
-
   function handleEditAvatarClick() {
     setIsEditAvatarPopupOpen(true)
   }

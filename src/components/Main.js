@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import api from '../utils/api';
 import Card from './Card';
 
@@ -43,8 +43,6 @@ function Main( {onEditAvatar, onEditProfile, onAddPlace, onCardClick} ) {
           <Card
             key={card._id}
             card={card}
-            link={card.link}
-            name={card.name}
             onCardClick={onCardClick}
           />
         );
